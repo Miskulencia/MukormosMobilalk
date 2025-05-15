@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/mukormosfoodal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/pink"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@color/gold"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/gold"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Felhasználónév"
+            android:textColorHint="@color/gold"
+            android:inputType="text"
+            android:textColor="@color/gold"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jelszó"
+            android:textColorHint="@color/gold"
+            android:inputType="textPassword"
+            android:textColor="@color/gold"/>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jelszó megerősítése"
+            android:textColorHint="@color/gold"
+            android:inputType="textPassword"
+            android:textColor="@color/gold"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regisztráció"
+            android:textColor="@color/gold"
+            android:backgroundTint="@color/pink"/>
+
+    </LinearLayout>
+
+</LinearLayout>

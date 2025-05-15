@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Főoldal"
+        app:showAsAction="never"
+        android:titleTextColor="@color/gold"
+        />
+    <item
+        android:id="@+id/menu_about"
+        android:title="Rólunk"
+        app:showAsAction="never"
+        app:titleTextColor="@color/gold"/>
+    <item
+        android:id="@+id/menu_booking"
+        android:title="Időpontfoglalás"
+        app:showAsAction="never"
+        app:titleTextColor="@color/gold"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Kijelentkezés"
+        app:showAsAction="never"
+        app:titleTextColor="@color/gold"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profil"
+        app:showAsAction="never"
+        app:titleTextColor="@color/gold"/>
+
+</menu>
+<!-- Ellenőrzöm, hogy az `R` osztály generálása miért nem működik, és kijavítom a problémát. -->

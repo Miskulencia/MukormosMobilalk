@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676337659896",
+    "project_id": "mukormosidopont",
+    "storage_bucket": "mukormosidopont.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676337659896:android:103cdec8981dfeff6fb00d",
+        "android_client_info": {
+          "package_name": "com.example.mukormosidopont2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676337659896-rlbcu6vdqlat9qsccojui4tlfei9tkau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5AoyJhsbeBC_nPx1ELhOx5X4TSJmRh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676337659896-rlbcu6vdqlat9qsccojui4tlfei9tkau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
